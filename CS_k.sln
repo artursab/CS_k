@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_k", "CS_k\CS_k.csproj", "{BCD8BD47-17A7-4B2C-9FA2-E8BCCA2C90DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS_k", "CS_k\CS_k.csproj", "{BCD8BD47-17A7-4B2C-9FA2-E8BCCA2C90DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoDimnsArrays", "TwoDimnsArrays\TwoDimnsArrays.csproj", "{CEB65788-250A-4A41-B321-F59ACFAA1D27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoDimnsArrays", "TwoDimnsArrays\TwoDimnsArrays.csproj", "{CEB65788-250A-4A41-B321-F59ACFAA1D27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "linkarray", "linkarray\linkarray.csproj", "{0B96D8D0-F21A-4CEF-9350-078906C5C1E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "linkarray", "linkarray\linkarray.csproj", "{0B96D8D0-F21A-4CEF-9350-078906C5C1E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniGameConsol", "MiniGameConsol\MiniGameConsol.csproj", "{81D3F030-EDBE-4704-B4A7-12F09CA94A80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniGameConsol", "MiniGameConsol\MiniGameConsol.csproj", "{81D3F030-EDBE-4704-B4A7-12F09CA94A80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "writeerror", "writeerror\writeerror.csproj", "{49BDAA1F-60EC-4F71-B32B-F434C0FA6938}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "writeerror", "writeerror\writeerror.csproj", "{49BDAA1F-60EC-4F71-B32B-F434C0FA6938}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "returnFunc", "returnFunc\returnFunc.csproj", "{ADF3A43A-BCE8-46B8-AFC4-7C98072C7E7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "returnFunc", "returnFunc\returnFunc.csproj", "{ADF3A43A-BCE8-46B8-AFC4-7C98072C7E7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "healthbar", "healthbar\healthbar.csproj", "{0A6880E9-20AC-4FAA-B1C2-E2DFE9FFE680}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{ADF3A43A-BCE8-46B8-AFC4-7C98072C7E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADF3A43A-BCE8-46B8-AFC4-7C98072C7E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADF3A43A-BCE8-46B8-AFC4-7C98072C7E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A6880E9-20AC-4FAA-B1C2-E2DFE9FFE680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A6880E9-20AC-4FAA-B1C2-E2DFE9FFE680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A6880E9-20AC-4FAA-B1C2-E2DFE9FFE680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A6880E9-20AC-4FAA-B1C2-E2DFE9FFE680}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
