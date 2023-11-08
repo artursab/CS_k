@@ -17,6 +17,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "returnFunc", "returnFunc\re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "healthbar", "healthbar\healthbar.csproj", "{0A6880E9-20AC-4FAA-B1C2-E2DFE9FFE680}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pacman", "Pacman\Pacman.csproj", "{408EFB9C-BA09-424C-BDB9-2291DBEBA576}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List", "List\List.csproj", "{5DAEA0BF-6B96-41AF-8E34-F276A0441C87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{0A6880E9-20AC-4FAA-B1C2-E2DFE9FFE680}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A6880E9-20AC-4FAA-B1C2-E2DFE9FFE680}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A6880E9-20AC-4FAA-B1C2-E2DFE9FFE680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{408EFB9C-BA09-424C-BDB9-2291DBEBA576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{408EFB9C-BA09-424C-BDB9-2291DBEBA576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{408EFB9C-BA09-424C-BDB9-2291DBEBA576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{408EFB9C-BA09-424C-BDB9-2291DBEBA576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DAEA0BF-6B96-41AF-8E34-F276A0441C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DAEA0BF-6B96-41AF-8E34-F276A0441C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DAEA0BF-6B96-41AF-8E34-F276A0441C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DAEA0BF-6B96-41AF-8E34-F276A0441C87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
