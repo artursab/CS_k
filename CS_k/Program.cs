@@ -32,8 +32,9 @@ namespace CS_k
 
             //passanger registration for airplane
             int[] sectors = { 6, 15, 7, 30, 10 };
+            bool isOpen = true;
 
-            while (true)
+            while (isOpen)
             {
                 Console.SetCursorPosition(0, 18);
                 for (int i = 0; i < sectors.Length; i++)
@@ -47,9 +48,38 @@ namespace CS_k
 
                 Console.WriteLine("\n\n1 - book a seat \n2 - exit from program.\n\n");
                 Console.Write("Enter program number: ");
+
                 switch (Convert.ToInt32(Console.ReadLine()))
                 {
-                    case 1:  
+                    case 1:
+                        int userSector, userPlaceAmount;
+                        Console.Write("In wich sector you wanna flight?");
+                        userSector = Convert.ToInt32(Console.ReadLine()) - 1;
+                        if (sectors.Length <= userSector || userSector < 0)
+                        {
+                            Console.WriteLine("This sector not exist!");
+                            break;
+                        }
+
+                        Console.Write("How many seats you wanna book?");
+                        userPlaceAmount = Convert.ToInt32(Console.ReadLine());
+                        if (userPlaceAmount < 0)
+                        {
+                            Console.WriteLine("Wrong number of seats!");
+                            break;
+                        }
+
+                        if (sectors[userSector] < userPlaceAmount)
+                        {
+                            Console.WriteLine($"In the sector {userSector} not enough seats. " +
+                                $"Remains {sectors[userSector]}");
+                            break;
+                        }
+
+                        sectors[userSector] -= userPlaceAmount;
+                        Console.WriteLine("Book was succesfull!)");
+                        break;
+                    case 2: isOpen = false;
                         break;
                 }
 
