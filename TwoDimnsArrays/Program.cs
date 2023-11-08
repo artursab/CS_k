@@ -73,6 +73,12 @@ namespace Two
                 switch (Convert.ToInt32(Console.ReadLine()))
                 {
                     case 1:
+                        int line, column;
+                        Console.Write("Enter shelf number: ");
+                        line  = Convert.ToInt32(Console.ReadLine()) - 1;
+                        Console.Write("Enter column number: ");
+                        column = Convert.ToInt32(Console.ReadLine()) - 1;
+                        Console.WriteLine("Author: " + books[line, column]);
                         break;
 
                     case 2:
