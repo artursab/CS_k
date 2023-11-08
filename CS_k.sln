@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_k", "CS_k\CS_k.csproj", "{BCD8BD47-17A7-4B2C-9FA2-E8BCCA2C90DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoDimnsArrays", "TwoDimnsArrays\TwoDimnsArrays.csproj", "{CEB65788-250A-4A41-B321-F59ACFAA1D27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BCD8BD47-17A7-4B2C-9FA2-E8BCCA2C90DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCD8BD47-17A7-4B2C-9FA2-E8BCCA2C90DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCD8BD47-17A7-4B2C-9FA2-E8BCCA2C90DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEB65788-250A-4A41-B321-F59ACFAA1D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEB65788-250A-4A41-B321-F59ACFAA1D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEB65788-250A-4A41-B321-F59ACFAA1D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEB65788-250A-4A41-B321-F59ACFAA1D27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
