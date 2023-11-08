@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List", "List\List.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack", "Stack\Stack.csproj", "{690617B6-375C-4AC0-BC96-5257767BF93C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictioanry", "Dictioanry\Dictioanry.csproj", "{45BFC9F5-CE0A-4B9D-A4CD-28DC4D2E577B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{690617B6-375C-4AC0-BC96-5257767BF93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{690617B6-375C-4AC0-BC96-5257767BF93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{690617B6-375C-4AC0-BC96-5257767BF93C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45BFC9F5-CE0A-4B9D-A4CD-28DC4D2E577B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45BFC9F5-CE0A-4B9D-A4CD-28DC4D2E577B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45BFC9F5-CE0A-4B9D-A4CD-28DC4D2E577B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45BFC9F5-CE0A-4B9D-A4CD-28DC4D2E577B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
