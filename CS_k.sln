@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "linkarray", "linkarray\link
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniGameConsol", "MiniGameConsol\MiniGameConsol.csproj", "{81D3F030-EDBE-4704-B4A7-12F09CA94A80}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "writeerror", "writeerror\writeerror.csproj", "{49BDAA1F-60EC-4F71-B32B-F434C0FA6938}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "returnFunc", "returnFunc\returnFunc.csproj", "{ADF3A43A-BCE8-46B8-AFC4-7C98072C7E7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{81D3F030-EDBE-4704-B4A7-12F09CA94A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81D3F030-EDBE-4704-B4A7-12F09CA94A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81D3F030-EDBE-4704-B4A7-12F09CA94A80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49BDAA1F-60EC-4F71-B32B-F434C0FA6938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49BDAA1F-60EC-4F71-B32B-F434C0FA6938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49BDAA1F-60EC-4F71-B32B-F434C0FA6938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49BDAA1F-60EC-4F71-B32B-F434C0FA6938}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF3A43A-BCE8-46B8-AFC4-7C98072C7E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF3A43A-BCE8-46B8-AFC4-7C98072C7E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF3A43A-BCE8-46B8-AFC4-7C98072C7E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF3A43A-BCE8-46B8-AFC4-7C98072C7E7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
